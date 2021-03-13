@@ -2,16 +2,11 @@
     display: inline-block;
     vertical-align: top;
 }
-
-.logo {
-    width: 23%;
+.navigation {
     padding: 1%;
-    text-align: left
-}
-
-.nav {
-    width: 73%;
-    padding: 1%;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    color: grey;
 }
 
 ul {
@@ -19,15 +14,9 @@ ul {
     margin-left: auto;
     list-style: none;
 }
-
-.heroImg {
-    height: 600px;
-    padding: 25px;
-}
-
 .content {
     width: 500px;
-    margin: 0 auto;
+    margin: 30px;
 }
 
 footer {
@@ -60,8 +49,68 @@ button {
 
 li {
     font-family: 'Poppins', sans-serif;
+    list-style: none;
 }
 
 p {
     font-family:  'Poppins', sans-serif;
+}
+h2{
+    font-family:  'Poppins', sans-serif;
+    font-size: 30px;
+    margin: 30px;
+}
+h3{
+    font-family:  'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+    color: grey;
+}
+h1{
+    font-family:  'Poppins', sans-serif;
+    font-size: 40px;
+    margin: 30px;
+    line-height: 12mm;
+}
+.flexContainer{
+    display: flex;
+}
+.flexContainer div{
+    width: 33%;
+    margin: 30px;
+}
+.flexContainer2{
+    display: flex;
+}
+.flexContainer2 div{
+    width: 33%;
+    margin: 30px;
+}
+.workGrid{
+    display: grid;
+    padding: 0px 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "abc beyondBlue fisherPrice"
+}
+.abc{
+    grid-area: abc;
+}
+.beyondBlue{
+    grid-area: beyondBlue;
+}
+.fisherPrice{
+    grid-area: fisherPrice;
+}
+.socialLinks{
+    margin: 30px;
+}
+nav ul li:hover{
+    color: black;
+    font-weight: bolder;
+}
+.bottom-left{
+    font-family: Poppins, sans-serif;
 }
