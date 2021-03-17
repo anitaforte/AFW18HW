@@ -2,10 +2,12 @@
     display: inline-block;
     vertical-align: top;
 }
-.navigation {
+.navigation1 {
     font-family: Poppins, sans-serif;
     font-weight: bolder;
     color: grey;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
 
 ul {
@@ -143,7 +145,7 @@ nav ul li:hover{
     object-fit: fill; 
  }
  @media only screen and (max-width:600px){
-    .html{
+    .body{
         width: 600px;
     }
 * {
