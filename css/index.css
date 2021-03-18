@@ -148,6 +148,33 @@ nav ul li:hover{
     .body{
         width: 600px;
     }
-* {
-        box-sizing: border-box;
-}
+    .abc img{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+        max-width: 400px;
+        max-height: 550px;
+        grid-template-areas: 
+        "abc"
+        "beyondBlue"
+        "fisherPrice";
+    }
+    .beyondBlue img{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+        max-width: 400px;
+        max-height: 550px;
+        grid-template-areas: 
+        "abc"
+        "beyondBlue"
+        "fisherPrice";
+    }
+    .fisherPrice img{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+        max-width: 400px;
+        max-height: 550px;
+        grid-template-areas: 
+        "abc"
+        "beyondBlue"
+        "fisherPrice";
+    }
